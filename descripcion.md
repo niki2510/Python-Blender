@@ -10,6 +10,9 @@ Son ejemplos de nivel básico de Python para Blender
 5.animacion-movimiento-eje-x.blend : este movimiento tambien es horisontal (es bastante relativo: ejemplos 4 podemos decir que es el movimiento por eje y (todo depende del giro del plano)<br>
 6.Animacion-objeto-rebota.blend : movimiento vertical<br>
 7.Animacion-objeto-cambiamos-altura.blend : animación que visualiza el cambio de tamaño de un objeto<br>
-8.Animacion-objeto-movimiento-giratorio-reversivo-1.blend : mirar "Graph Editor" ==> Euler Rotation<br>
+8.Animacion-objeto-movimiento-giratorio-reversivo-1.blend : mirar "Graph Editor" ==> "Euler Rotation"<br>
+#Cambia la Ruta absoluta para guardar el archivo de salida de lo contrario vas a tener error por falta de permisos para ejecutar este código <br>
+output_path = os.path.join(os.getcwd(), "animations.blend")<br>
+
 
 
